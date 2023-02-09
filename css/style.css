@@ -118,20 +118,25 @@ h6,
 }
 
 .page-header {
-    height: 400px;
+    height: 650px;
     margin-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/jag);
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/cars2.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 991.98px) {
     .page-header {
         height: 300px;
     }
+    .fixed-top {
+        position: absolute;
+      }
+    
 }
 
 .service-item {
@@ -310,6 +315,12 @@ h6,
 }
 
 .bg-banner {
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/jag.jpg);
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/2014_jaguar.jpg);
     background-attachment: fixed;
 }
+.container{
+    background-color: #023020 !important;
+}
+.navbar {
+    background-color: #023020;
+  }

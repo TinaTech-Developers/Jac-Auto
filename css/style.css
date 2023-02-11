@@ -130,6 +130,12 @@ h6,
     .display-1{
         font-size:larger;
     }
+    .embed-responsive{
+        margin: 100px 0 0 0;
+    }
+    .w-100{
+        margin: 100px 0 0 0;
+    }
 }
 
 .page-header {
@@ -155,6 +161,12 @@ h6,
       .containur{
     
         display: none;
+    }
+    .embed-responsive{
+        margin: 100px 0 0 0;
+    }
+    .w-100{
+        margin: 100px 0 0 0;
     }
     
 }
@@ -399,5 +411,11 @@ h6,
     .containur{
         display: none;
        
+    }
+    .embed-responsive{
+        margin: 100px 0 0 0;
+    }
+    .w-100{
+        margin: 100px 0 0 0;
     }
   }

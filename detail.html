@@ -321,66 +321,112 @@
           <div class="col-lg-4 mb-5">
             <div class="bg-secondary p-5">
               <h3 class="text-danger text-center mb-4">Check Availability</h3>
-              <div class="form-group">
-                <select class="custom-select px-4" style="height: 50px">
-                  <option selected>Pickup Location</option>
-                  <option value="1">Msasa</option>
-                  <option value="2">Harare</option>
-                  <option value="3">Mutare</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <select class="custom-select px-4" style="height: 50px">
-                  <option selected>Drop Location</option>
-                  <option value="1">Harare</option>
-                  <option value="2">Mutare</option>
-                  <option value="3">Bulawayo</option>
-                  <option value="3">Other</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <div class="date" id="date1" data-target-input="nearest">
-                  <input
-                    type="text"
-                    class="form-control p-4 datetimepicker-input"
-                    placeholder="Pickup Date"
-                    data-target="#date1"
-                    data-toggle="datetimepicker"
-                  />
+              <form
+                action="https://formsubmit.co/tinashephiri0@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Email in your Inbox!"
+                />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/thanks.html"
+                />
+                <input type="hidden" name="_captcha" value="false" />>
+                <div class="form-group">
+                  <select
+                    class="custom-select px-4"
+                    style="height: 50px"
+                    id="custom-select"
+                    name="custom-select"
+                    autocomplete="off"
+                  >
+                    <option selected>Pickup Location</option>
+                    <option value="Msasa">Msasa</option>
+                    <option value="Harare">Harare</option>
+                    <option value="Mutare">Mutare</option>
+                  </select>
                 </div>
-              </div>
-              <div class="form-group">
-                <div class="time" id="time1" data-target-input="nearest">
-                  <input
-                    type="text"
-                    class="form-control p-4 datetimepicker-input"
-                    placeholder="Email Address"
-                    data-target="#email"
-                    data-toggle="text"
-                  />
+                <div class="form-group">
+                  <select
+                    class="custom-select px-4"
+                    style="height: 50px"
+                    autocomplete="off"
+                    name="select"
+                    id="select"
+                  >
+                    <option selected>Drop Location</option>
+                    <option value="Harare">Harare</option>
+                    <option value="Mutare">Mutare</option>
+                    <option value="Bulawayo">Bulawayo</option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
-              </div>
-              <div class="form-group">
-                <div class="time" id="time1" data-target-input="nearest">
-                  <input
-                    type="text"
-                    class="form-control p-4 datetimepicker-input"
-                    placeholder="Name"
-                    data-target="#name"
-                    data-toggle="text"
-                  />
+                <div class="form-group">
+                  <div
+                    class="date"
+                    id="date1"
+                    data-target-input="nearest"
+                    autocomplete="off"
+                    name="date1"
+                  >
+                    <input
+                      type="text"
+                      class="form-control p-4 datetimepicker-input"
+                      placeholder="Pickup Date"
+                      data-target="#date1"
+                      data-toggle="datetimepicker"
+                    />
+                  </div>
                 </div>
-              </div>
+                <div class="form-group">
+                  <div
+                    class="time"
+                    id="time1"
+                    data-target-input="nearest"
+                    autocomplete="off"
+                    name="time1"
+                  >
+                    <input
+                      type="text"
+                      class="form-control p-4 datetimepicker-input"
+                      placeholder="Email Address"
+                      data-target="#email"
+                      data-toggle="text"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div
+                    class="time"
+                    id="time1"
+                    data-target-input="nearest"
+                    autocomplete="off"
+                    name="time1"
+                  >
+                    <input
+                      type="text"
+                      class="form-control p-4 datetimepicker-input"
+                      placeholder="Name"
+                      data-target="#name"
+                      data-toggle="text"
+                    />
+                  </div>
+                </div>
 
-              <div class="form-group mb-0">
-                <button
-                  class="btn btn-danger btn-block"
-                  type="submit"
-                  style="height: 50px"
-                >
-                  Check Now
-                </button>
-              </div>
+                <div class="form-group mb-0">
+                  <button
+                    class="btn btn-danger btn-block"
+                    type="submit"
+                    style="height: 50px"
+                  >
+                    Check Now
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

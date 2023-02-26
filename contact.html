@@ -233,25 +233,46 @@
     <!-- Contact Start -->
     <div class="container-fluid py-5">
       <div class="container pt-5 pb-3">
+        <h1 class="display-1 text-danger text-center">06</h1>
         <h1 class="display-4 text-uppercase text-center mb-5">Contact Us</h1>
         <div class="row">
           <div class="col-lg-7 mb-2">
             <div class="contact-form bg-light mb-4" style="padding: 30px">
-              <form>
+              <form
+                action="https://formsubmit.co/jacautopro@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Email in your Inbox!"
+                />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/thanks.html"
+                />
+                <input type="hidden" name="_captcha" value="false" />
                 <div class="row">
                   <div class="col-6 form-group">
                     <input
                       type="text"
+                      id="fullname"
                       class="form-control p-4"
                       placeholder="Your Name"
+                      autocomplete="off"
+                      name="Name"
                       required="required"
                     />
                   </div>
                   <div class="col-6 form-group">
                     <input
                       type="email"
+                      id="email"
                       class="form-control p-4"
                       placeholder="Your Email"
+                      autocomplete="off"
+                      name="Email"
                       required="required"
                     />
                   </div>
@@ -259,8 +280,11 @@
                 <div class="form-group">
                   <input
                     type="text"
+                    id="subject"
                     class="form-control p-4"
                     placeholder="Subject"
+                    autocomplete="off"
+                    name="subject"
                     required="required"
                   />
                 </div>
@@ -269,6 +293,9 @@
                     class="form-control py-3 px-4"
                     rows="5"
                     placeholder="Message"
+                    id="message"
+                    autocomplete="off"
+                    name="message"
                     required="required"
                   ></textarea>
                 </div>

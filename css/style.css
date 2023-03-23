@@ -441,3 +441,7 @@ h6,
 .my-float {
   margin-top: 10px;
 }
+.logo{
+  width: 200px;
+  /* align-items: center; */
+}

@@ -150,12 +150,13 @@ h6,
     object-fit: cover;
     display: flex;
   }
+  .texty h3{
+    font-size: smaller;
+    
+  }
 }
 
 .page-header {
-  height: 650px;
-  margin-bottom: 90px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -418,6 +419,9 @@ h6,
     height: 60px;
     width: 100%;
     object-fit: cover;
+  }
+  .car-drive{
+    display: block;
   }
 }
 

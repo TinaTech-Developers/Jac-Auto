@@ -148,6 +148,7 @@ h6,
     height: 100%;
     width: 100%;
     object-fit: cover;
+    display: flex;
   }
 }
 
@@ -187,7 +188,7 @@ h6,
     height: 100%;
   }
   .gallery{
-    height: 100%;
+    height: 50px;
     width: 100%;
     object-fit: cover;
   }
@@ -414,7 +415,7 @@ h6,
     height: 100%;
   }
   .gallery{
-    height: 100%;
+    height: 60px;
     width: 100%;
     object-fit: cover;
   }
@@ -474,5 +475,5 @@ h6,
 .gallery{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }

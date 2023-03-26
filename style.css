@@ -124,7 +124,7 @@ h6,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/jag.jpg); */
+  /* background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/jag.png); */
   background: linear-gradient(rgba(28, 30, 50, 0.9), rgba(28, 30, 50, 0.9)),
     url(../img/.bg-banner.jpg);
   background-attachment: fixed;
@@ -324,6 +324,6 @@ h6,
 
 .danger {
   background: linear-gradient(rgba(28, 30, 50, 0.9), rgba(28, 30, 50, 0.9)),
-    url(../img/jag.jpg);
+    url(../img/jag.png);
   background-attachment: fixed;
 }
